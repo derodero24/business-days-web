@@ -1,3 +1,4 @@
+import ja from 'date-fns/locale/ja';
 import Head from 'next/head';
 import { ForwardedRef, forwardRef, useState } from 'react';
 import DatePicker from 'react-datepicker';
@@ -40,7 +41,7 @@ const Home: NextPageWithLayout = () => {
             <span className="pr-2 italic">X</span>営業日後は何日？
           </h1>
           <DatePicker
-            locale="ja"
+            locale={ja}
             selected={eventDay}
             onChange={day => day && setEventDay(day)}
             dateFormat="yyyy/MM/dd"
