@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-import LangButton from '../elements/LangButton';
 import ThemeButton from '../elements/ThemeButton';
 
 const navigations = [
@@ -24,7 +23,6 @@ export default function Header() {
         </div>
         <div className="flex items-center space-x-6">
           <ThemeButton className="text-xl hover:opacity-75" />
-          <LangButton className="text-xl hover:opacity-75" />
         </div>
       </nav>
     </header>
