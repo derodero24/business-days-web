@@ -105,10 +105,10 @@ const Home: NextPageWithLayout = () => {
                   type="number"
                   value={howManyDays}
                   min="0"
-                  max="10000"
+                  max="1000"
                   onChange={e => {
                     const value = e.target.valueAsNumber;
-                    const next = value ? (value < 10_000 ? value : 10_000) : 0;
+                    const next = value ? (value < 1_000 ? value : 1_000) : 0;
                     setHowManyDays(next.toFixed(0));
                   }}
                   className="text-input pl-4 pr-32"
