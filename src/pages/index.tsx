@@ -50,7 +50,7 @@ const Home: NextPageWithLayout = () => {
       </Head>
       <main className="grow px-6 py-2">
         <div className="mx-auto max-w-2xl">
-          <h1 className="pb-8 text-xl">○営業日後はいつ？</h1>
+          <h1 className="select-none pb-8 text-xl">○営業日後はいつ？</h1>
 
           <form className="space-y-4">
             <label className="form-label">
