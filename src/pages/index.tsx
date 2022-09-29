@@ -21,7 +21,7 @@ const CustomInput = forwardRef((props, ref: ForwardedRef<HTMLInputElement>) => (
       {...props}
       ref={ref}
       type="text"
-      className="form-input pl-10"
+      className="form-input cursor-pointer pl-10"
       placeholder="Select date"
       readOnly
     />
