@@ -7,16 +7,16 @@ export default function MyDocument() {
         <meta name="author" content="@derodero24" />
 
         {/* Colors */}
-        <meta name="theme-color" content="#1f2937" />
+        <meta name="theme-color" content="#1F2937" />
         <meta
           name="theme-color"
           media="(prefers-color-scheme: light)"
-          content="#f3f4f6"
+          content="#F3F4F6"
         />
         <meta
           name="theme-color"
           media="(prefers-color-scheme: dark)"
-          content="#1f2937"
+          content="#1F2937"
         />
 
         {/* icons */}

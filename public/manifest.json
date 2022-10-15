@@ -1,19 +1,24 @@
 {
-    "name": "Yae Labs, Inc.",
-    "short_name": "YaeLabs",
+    "name": "◯営業日後はいつ？",
+    "short_name": "◯営業日後",
+    "description": "",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#1F2937",
+    "background_color": "#1F2937",
     "icons": [
         {
             "src": "/icon-192.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "/icon-512.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }
